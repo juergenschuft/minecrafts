@@ -1,0 +1,8 @@
+name: HalloServer-Plugin
+main: HalloServerPlugin
+api-version: 1.17
+version: 1.03
+commands:
+    moin:
+        description: Sendet einen Gruss an den Server
+        usage: /moin name
