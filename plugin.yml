@@ -1,8 +1,4 @@
-name: HalloServer-Plugin
-main: HalloServerPlugin
+name: BlumenRezept-Plugin
+main: BlumenRezeptPlugin
 api-version: 1.17
-version: 1.03
-commands:
-    moin:
-        description: Sendet einen Gruss an den Server
-        usage: /moin name
+version: 1.01
