@@ -3,12 +3,12 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapelessRecipe;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class BlumenRezeptPlugin extends JavaPlugin {
+public class BedrockRezeptPlugin extends JavaPlugin {
 
 	public void onEnable() {
-		ItemStack blume = new ItemStack(Material.LEGACY_RED_ROSE);
+		ItemStack blume = new ItemStack(Material.BEDROCK);
 		ShapelessRecipe blumeRezept = new ShapelessRecipe(blume);
-		blumeRezept.addIngredient(Material.EGG);
+		blumeRezept.addIngredient(Material.OAK_PLANKS);
 		this.getServer().addRecipe(blumeRezept);
 	}
 
