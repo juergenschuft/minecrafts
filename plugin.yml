@@ -1,4 +1,4 @@
-name: BedrockRezept-Plugin
-main: BedrockRezeptPlugin
+name: FeuerSchwertRezept-Plugin
+main: FeuerSchwertRezeptPlugin
 api-version: 1.17
 version: 1.01
