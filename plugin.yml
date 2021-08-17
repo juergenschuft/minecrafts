@@ -1,9 +1,8 @@
-name: Notunterkunft-Plugin
-main: NotunterkunftPlugin
+name: Kugel-Plugin
+main: KugelPlugin
 api-version: 1.17
 version: 1.0
 commands:
-    notunterkunft:
-        description: Baut eine Notunterkunft fuer die Nacht
-        usage: /notunterkunft
-        aliases: [not]
+    kugel:
+        description: Platziert eine Kugel mit dem angegebenen Radius ueber dem Spieler
+        usage: /kugel <radius>
