@@ -1,7 +1,7 @@
 name: Kugel-Plugin
 main: KugelPlugin
 api-version: 1.17
-version: 1.0
+version: 1.01
 commands:
     kugel:
         description: Platziert eine Kugel mit dem angegebenen Radius ueber dem Spieler
