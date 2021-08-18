@@ -37,6 +37,23 @@ public class KugelPlugin extends JavaPlugin {
 					}
 				}
 			}
+			
+			r = r - 1;
+
+			for(int x = xStart - r; x <= xStart + r; x++){
+				for(int y = yStart - r; y <= yStart + r; y++){
+					for(int z = zStart - r; z <= zStart + r; z++){
+						if((x-xStart)*(x-xStart)+(y-yStart)*(y-yStart)+(z-zStart)*(z-zStart) < r*r){
+							position.setX(x);
+							position.setY(y);
+							position.setZ(z);
+							welt.getBlockAt(position).setType(Material.AIR);
+						}
+					}
+				}
+			}
+		
+		
 		}
 		else{
 			this.getLogger().info ("Dieser Befehl kann nur von Spielern ausgefuehrt werden");
